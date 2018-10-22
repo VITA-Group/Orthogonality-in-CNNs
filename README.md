@@ -19,7 +19,7 @@ To train on Cifar-100 using 2 gpu:
 CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2 --dataset cifar100
 ```
 
-After train phase, you can check saved model in the runs folder.
+After train phase, you can check saved model in the ```runs``` folder.
 
 
 ## Cite
