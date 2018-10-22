@@ -7,7 +7,7 @@ Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networ
 - [x] SVHN
 
 
-## Usage
+## Usage Wide-Resnet CIFAR
 To train on Cifar-10 using 2 gpu:
 
 ```bash
