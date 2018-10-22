@@ -3,8 +3,7 @@
 Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networks) with pytorch.
 
 - [x] Trains on Cifar10 and Cifar100
-- [x] Upload Cifar Training Curves
-- [x] Upload Cifar Trained Models
+
 
 ## Usage
 To train on Cifar-10 using 2 gpu:
@@ -20,6 +19,14 @@ CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2 --dataset cifar100
 ```
 
 After train phase, you can check saved model in the ```runs``` folder.
+
+## Other frameworks
+* [torch (@facebookresearch)](https://github.com/szagoruyko/wide-residual-networks.). (Original) Cifar and Imagenet
+
+## Acknowledgement
+- [wideresnet-pytorch](https://github.com/xternalz/WideResNet-pytorch)
+- [densenet-pytorch](https://github.com/andreasveit/densenet-pytorch)
+- Wide Residual Networks (BMVC 2016) http://arxiv.org/abs/1605.07146 by Sergey Zagoruyko and Nikos Komodakis.
 
 
 ## Cite
