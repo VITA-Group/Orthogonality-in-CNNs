@@ -4,6 +4,7 @@ Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networ
 
 - [x] Trains on Cifar10 and Cifar100
 - [x] Pytorch 4.0
+- [x] SVHN
 
 
 ## Usage
