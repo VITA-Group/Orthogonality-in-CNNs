@@ -1,4 +1,26 @@
 # Can-we-Gain-More-from-Orthogonality
+# Wide Resnet.pytorch
+Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networks) with pytorch.
+
+- [x] Trains on Cifar10 and Cifar100
+- [x] Upload Cifar Training Curves
+- [x] Upload Cifar Trained Models
+
+## Usage
+To train on Cifar-10 using 2 gpu:
+
+```bash
+CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2
+```
+
+To train on Cifar-100 using 2 gpu:
+
+```bash
+CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2 --dataset cifar100
+```
+
+After train phase, you can check saved model in the runs folder.
+
 
 ## Cite
 ```
