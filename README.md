@@ -47,14 +47,14 @@ CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2 --dataset cifar100
 
 After train phase, you can check saved model in the ```runs``` folder.
 
-## Wide-Resnet SVHN
+### Wide-Resnet SVHN
 For SVHN datasets,we choose Wide Resnet Arch. with a depth of 16 and Kernel width of 8,which
 gives the best results for comparable number parameters for any Wide-Resnet Model. 
 ``` bash
 CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learning_rate 0.01 --epochs 160
 ```
 
-## Result
+### Result
 | **Network** | **CIFAR-10** | **CIFAR-100** | **SVHN** |
 | ----------- | ------------ | ------------- | -------- |
 | WideResNet  | 4.16       | 20.50          | 1.60     |
@@ -75,4 +75,6 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 - [Wide Resnet] (https://arxiv.org/abs/1605.07146)
 - [ResNext] (https://arxiv.org/abs/1611.05431)
 
-## Cite
+## Citation
+If you find our code helpful in your resarch or work, please cite our paper.
+
