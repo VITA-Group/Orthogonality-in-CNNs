@@ -8,10 +8,12 @@ This repositry provides an introduction, implementation and result achieved in t
 # Wide Resnet.pytorch
 Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networks) with pytorch.
 
-- [x] Trains on Cifar10 and Cifar100
+- [x] Cifar10 and Cifar100
 - [x] Pytorch 4.0
-- [x] Keras
+- [x] Keras 2.2.4
+- [x] CUDA 9.1
 - [x] SVHN
+- [] ImageNet
 
 
 ## Usage Wide-Resnet CIFAR
