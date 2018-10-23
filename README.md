@@ -59,7 +59,7 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 | **Network** | **CIFAR-10** | **CIFAR-100** | **SVHN** |
 | ----------- | ------------ | ------------- | -------- |
 | WideResNet  | 4.16       | 20.50          | 1.60     |
-| WideResNet + Reg | **3.60** | **18.19**        | **1.52** |
+| WideResNet + SRIP Reg | **3.60** | **18.19**        | **1.52** |
 
 ## Other frameworks
 * [torch (@facebookresearch)](https://github.com/szagoruyko/wide-residual-networks.). (Original) Cifar and Imagenet
