@@ -26,9 +26,10 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [x] ResNext
 
 ## Regularizers Proposed 
-- [x] Double Sided 
-- [x] Mutual Coherence Based
-- [x] Restricted Isometry (**Best Performing** )
+- [x] Single Sided (SO)
+- [x] Double Sided (DSO)
+- [x] Mutual Coherence Based (MC)
+- [x] Restricted Isometry (SRIP) (**Best Performing** )
 
 ### Wide-Resnet CIFAR
 For CIFAR datasets,we choose Wide Resnet Arch. with a depth of 28 and Kernel width of 10,which
