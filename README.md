@@ -4,17 +4,17 @@
 This repositry provides an introduction, implementation and result achieved in the paper:
 "Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?", NIPS 2018 [[pdf]](https://arxiv.org/abs/1810.09102) 
 
-
-# Wide Resnet.pytorch
-Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networks) with pytorch.
-
-- [x] Cifar10 and Cifar100
+## Enviroment Used
+- [x] Linux
 - [x] Pytorch 4.0
 - [x] Keras 2.2.4
 - [x] CUDA 9.1
+- [x] Cifar10 and Cifar100
 - [x] SVHN
 - [ ] ImageNet
 
+# Architecture Used
+## Wide Resnet.pytorch
 
 ## Usage Wide-Resnet CIFAR
 To train on Cifar-10 using 2 gpu:
