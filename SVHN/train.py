@@ -1,7 +1,3 @@
-# run train.py --dataset cifar10 --model resnet18 --data_augmentation --cutout --length 16
-# run train.py --dataset cifar100 --model resnet18 --data_augmentation --cutout --length 8
-# run train.py --dataset svhn --model wideresnet --learning_rate 0.01 --epochs 160 --cutout --length 20
-
 import pdb
 import argparse
 import numpy as np
@@ -41,8 +37,6 @@ parser.add_argument('--learning_rate', type=float, default=0.1,
                     help='learning rate')
 parser.add_argument('--data_augmentation', action='store_true', default=False,
                     help='augment data by flipping and cropping')
-#parser.add_argument('--cutout', action='store_true', default=False,
-#                    help='apply cutout')
 parser.add_argument('--n_holes', type=int, default=1,
                     help='number of holes to cut out from image')
 parser.add_argument('--length', type=int, default=16,
@@ -111,9 +105,6 @@ if args.data_augmentation:
     train_transform.transforms.append(transforms.RandomHorizontalFlip())
 train_transform.transforms.append(transforms.ToTensor())
 train_transform.transforms.append(normaliz)
-#if args.cutout:
-#    train_transform.transforms.append(Cutout(n_holes=args.n_holes, length=args.length))
-
 
 test_transform = transforms.Compose([
     transforms.ToTensor(),
