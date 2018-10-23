@@ -25,6 +25,10 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [x] Wide ResNet
 - [x] ResNext
 
+## Regularizers Proposed 
+- [x] Double Sided 
+- [x] Mutual Coherence Based
+- [x] Restricted Isometry (Best Performing)
 
 ## Usage Wide-Resnet CIFAR
 To train on Cifar-10 using 2 gpu:
