@@ -79,15 +79,16 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 ## Citation
 If you find our code helpful in your resarch or work, please cite our paper.
 ```
-@misc{1810.09102,
-
-Author = {Nitin Bansal and Xiaohan Chen and Zhangyang Wang},
-
-Title = {Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?},
-
-Year = {2018},
-
-Eprint = {arXiv:1810.09102},
-
+@ARTICLE{2018arXiv181009102B,
+  author = {{Bansal}, N. and {Chen}, X. and {Wang}, Z.},
+   title = "{Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?}",
+ journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+  eprint = {1810.09102},
+keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, Statistics - Machine Learning},
+    year = 2018,
+   month = oct,
+  adsurl = {http://adsabs.harvard.edu/abs/2018arXiv181009102B},
+ adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
