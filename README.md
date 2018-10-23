@@ -1,11 +1,16 @@
 # Can-we-Gain-More-from-Orthogonality
-##### Code Implementation for Restricted Isometry Property(RIP) based Orthogonal Regularizers, proposed for Image CLassification Task, for various State-of-art ResNet based architectures.
+##### Code Implementation for Restricted Isometry Property(RIP) based Orthogonal Regularizers, proposed for Image Classification Task, for various State-of-art ResNet based architectures.
+
+This repositry provides an introduction, implementation and result achieved in the paper:
+"Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?", NIPS 2018 [[pdf]](https://arxiv.org/abs/1810.09102) 
+
 
 # Wide Resnet.pytorch
 Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networks) with pytorch.
 
 - [x] Trains on Cifar10 and Cifar100
 - [x] Pytorch 4.0
+- [x] Keras
 - [x] SVHN
 
 
