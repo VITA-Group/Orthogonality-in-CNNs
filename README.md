@@ -21,14 +21,14 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [ ] ImageNet
 
 ## Architecture Used
-- [x] ResNet
+- [ ] ResNet
 - [x] Wide ResNet
-- [x] ResNext
+- [ ] ResNext
 
 ## Regularizers Proposed 
-- [x] Single Sided (SO)
-- [x] Double Sided (DSO)
-- [x] Mutual Coherence Based (MC)
+- [ ] Single Sided (SO)
+- [ ] Double Sided (DSO)
+- [ ] Mutual Coherence Based (MC)
 - [x] Restricted Isometry (SRIP) (**Best Performing** )
 
 ### Wide-Resnet CIFAR
@@ -78,4 +78,16 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 
 ## Citation
 If you find our code helpful in your resarch or work, please cite our paper.
+```
+@misc{1810.09102,
 
+Author = {Nitin Bansal and Xiaohan Chen and Zhangyang Wang},
+
+Title = {Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?},
+
+Year = {2018},
+
+Eprint = {arXiv:1810.09102},
+
+}
+```
