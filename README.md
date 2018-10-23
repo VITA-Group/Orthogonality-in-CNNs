@@ -13,7 +13,7 @@ Reproduces ResNet-V3 (Aggregated Residual Transformations for Deep Neural Networ
 - [x] Keras 2.2.4
 - [x] CUDA 9.1
 - [x] SVHN
-- [] ImageNet
+- [ ] ImageNet
 
 
 ## Usage Wide-Resnet CIFAR
