@@ -20,8 +20,11 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [x] SVHN
 - [ ] ImageNet
 
-# Architecture Used
-## Wide Resnet.pytorch
+## Architecture Used
+- [x] ResNet
+- [x] Wide ResNet
+- [x] ResNext
+
 
 ## Usage Wide-Resnet CIFAR
 To train on Cifar-10 using 2 gpu:
