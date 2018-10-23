@@ -30,7 +30,7 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [x] Mutual Coherence Based
 - [x] Restricted Isometry (**Best Performing** )
 
-### Usage Wide-Resnet CIFAR
+### Wide-Resnet CIFAR
 For CIFAR datasets,we choose Wide Resnet Arch. with a depth of 28 and Kernel width of 10,which
 gives the best results for comparable number parameters for any Wide-Resnet Model. 
 To train on Cifar-10 using 2 gpu:
@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=6,7 python train_n.py --ngpu 2 --dataset cifar100
 
 After train phase, you can check saved model in the ```runs``` folder.
 
-## Usage Wide-Resnet SVHN
+## Wide-Resnet SVHN
 For SVHN datasets,we choose Wide Resnet Arch. with a depth of 16 and Kernel width of 8,which
 gives the best results for comparable number parameters for any Wide-Resnet Model. 
 ``` bash
@@ -69,47 +69,10 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 - Wide Residual Networks (BMVC 2016) http://arxiv.org/abs/1605.07146 by Sergey Zagoruyko and Nikos Komodakis.
 - [cutout-svhn](https://github.com/uoguelph-mlrg/Cutout)
 
+## References
+- [ResNet] (https://arxiv.org/pdf/1512.03385.pdf)
+- [Pre ResNet] (https://arxiv.org/abs/1603.05027)
+- [Wide Resnet] (https://arxiv.org/abs/1605.07146)
+- [ResNext] (https://arxiv.org/abs/1611.05431)
 
 ## Cite
-```
-@article{xie2016aggregated,
-  title={Aggregated residual transformations for deep neural networks},
-  author={Xie, Saining and Girshick, Ross and Doll{\'a}r, Piotr and Tu, Zhuowen and He, Kaiming},
-  journal={arXiv preprint arXiv:1611.05431},
-  year={2016}
-}
-```
-```
-@article{DBLP:journals/corr/ZagoruykoK16,
-  author    = {Sergey Zagoruyko and
-               Nikos Komodakis},
-  title     = {Wide Residual Networks},
-  journal   = {CoRR},
-  volume    = {abs/1605.07146},
-  year      = {2016},
-  url       = {http://arxiv.org/abs/1605.07146},
-  archivePrefix = {arXiv},
-  eprint    = {1605.07146},
-  timestamp = {Mon, 13 Aug 2018 16:46:42 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/ZagoruykoK16},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
-```
-@article{DBLP:journals/corr/HeZRS15,
-  author    = {Kaiming He and
-               Xiangyu Zhang and
-               Shaoqing Ren and
-               Jian Sun},
-  title     = {Deep Residual Learning for Image Recognition},
-  journal   = {CoRR},
-  volume    = {abs/1512.03385},
-  year      = {2015},
-  url       = {http://arxiv.org/abs/1512.03385},
-  archivePrefix = {arXiv},
-  eprint    = {1512.03385},
-  timestamp = {Mon, 13 Aug 2018 16:46:56 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/HeZRS15},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-```
