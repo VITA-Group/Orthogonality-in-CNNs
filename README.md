@@ -4,7 +4,10 @@
 This repositry provides an introduction, implementation and result achieved in the paper:
 "Can We Gain More from Orthogonality Regularizations in Training Deep CNNs?", NIPS 2018 [[pdf]](https://arxiv.org/abs/1810.09102) 
 
-## Enviroment Used
+## Introduction
+Orthogonal Network Weights are found to be a favorable property for training deep convolutional neural networks.Through this work, we look to find alternate and more effective  ways to enforce orthogonality to deep CNNs. We develop novel orthogonality regularizations on training deep CNNs, utilizing various advanced analytical tools such as mutual coherence and restricted isometry property. These plug-and-play regularizations can be conveniently incorporated into training almost any CNN without extra hassle. We then benchmark their effects on state-of-the-art models: ResNet, WideResNet, and ResNeXt, on several most popular computer vision datasets: CIFAR-10, CIFAR-100, SVHN and ImageNet. We observe consistent performance gains after applying those proposed regularizations, in terms of both the final accuracies achieved, and faster and more stable convergences. 
+
+## Enviroment and Datasets Used
 - [x] Linux
 - [x] Pytorch 4.0
 - [x] Keras 2.2.4
