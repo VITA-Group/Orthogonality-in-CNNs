@@ -74,6 +74,12 @@ CUDA_VISIBLE_DEVICES=2 python resnet_cifar_new.py
 | ----------- | ------------ | 
 | ResNet110  | 7.11    | 
 | WideResNet + SRIP Reg | **5.46** | 
+
+
+## Pre-Trained Networks
+Link will be posted soon!
+
+
 ## Other frameworks
 * [torch (@facebookresearch)](https://github.com/szagoruyko/wide-residual-networks.). (Original) Cifar and Imagenet
 
