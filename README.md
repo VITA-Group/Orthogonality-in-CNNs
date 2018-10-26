@@ -61,6 +61,19 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 | WideResNet  | 4.16       | 20.50          | 1.60     |
 | WideResNet + SRIP Reg | **3.60** | **18.19**        | **1.52** |
 
+### Resnet110 CIFAR
+We  trained CIFAR10 and 100 Dataset for ResNet110 Model and achieved an improvement in terms of Test Accuracy, when compared to a model, which doesn't uses any form Regularization.The Code for this part has been written in Keras, and we have used the base code from official keras Repo: https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py, for a bottleneck based architecture.
+
+### Usage
+``` bash
+CUDA_VISIBLE_DEVICES=2 python resnet_cifar_new.py
+```
+
+### Result
+| **Network** | **CIFAR-10** | 
+| ----------- | ------------ | 
+| ResNet110  | 7.11    | 
+| WideResNet + SRIP Reg | **5.46** | 
 ## Other frameworks
 * [torch (@facebookresearch)](https://github.com/szagoruyko/wide-residual-networks.). (Original) Cifar and Imagenet
 
@@ -69,6 +82,7 @@ CUDA_VISIBEL_DEVICES=0 python train.py --dataset svhn --model wideresnet --learn
 - [densenet-pytorch](https://github.com/andreasveit/densenet-pytorch)
 - Wide Residual Networks (BMVC 2016) http://arxiv.org/abs/1605.07146 by Sergey Zagoruyko and Nikos Komodakis.
 - [cutout-svhn](https://github.com/uoguelph-mlrg/Cutout)
+- [keras-resnet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 
 ## References
 - [ResNet] (https://arxiv.org/pdf/1512.03385.pdf)
