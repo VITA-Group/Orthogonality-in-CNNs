@@ -21,7 +21,7 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [ ] ImageNet
 
 ## Architecture Used
-- [ ] ResNet
+- [x] ResNet
 - [x] Wide ResNet
 - [ ] ResNext
 
