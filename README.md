@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 python train_n.py
 | PreResnet 34  | 9.79   |     NONE           |
 | PreResNet 34 | **8. 85** |   SRIP           |
 | ResNet 34 | 9.84 |   NONE           |
-| PreResNet 34 | **8. 52** |   SRIP           |
+| PreResNet 34 | **** |   SRIP           |
 
 
 ## Pre-Trained Networks
