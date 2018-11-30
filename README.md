@@ -79,13 +79,18 @@ CUDA_VISIBLE_DEVICES=2 python resnet_cifar_new.py
 ### Pre-Resnet Imagenet
 we trained the Imagenet Dataset for Resnet-34 Resnet 50 and Pre-Resnet 34 and achieved a better Top-5 accuracy when compared to contemporary results. Basic Code was taken from:Pytorch Official cite.
 
+### Usage
+```
+CUDA_VISIBLE_DEVICES=4,5,6,7 python train_n.py
+```
+
 ### Result
 | **Network** | **Imagenet** | **Regularizer**| 
 | ----------- | ------------ | -------------- |
 | PreResnet 34  | 9.79   |     NONE           |
 | PreResNet 34 | **8. 85** |   SRIP           |
 | ResNet 34 | 9.84 |   NONE           |
-| PreResNet 34 | **8. 32** |   SRIP           |
+| PreResNet 34 | **8. 52** |   SRIP           |
 
 
 ## Pre-Trained Networks
