@@ -18,11 +18,12 @@ Figure 1. Validation Curve Achieved for differnet Regularizers Proposed
 - [x] CUDA 9.1
 - [x] Cifar10 and Cifar100
 - [x] SVHN
-- [ ] ImageNet
+- [x] ImageNet
 
 ## Architecture Used
 - [x] ResNet
 - [x] Wide ResNet
+- [x] Pre Resnet
 - [ ] ResNext
 
 ## Regularizers Proposed 
@@ -74,6 +75,17 @@ CUDA_VISIBLE_DEVICES=2 python resnet_cifar_new.py
 | ----------- | ------------ | 
 | ResNet110  | 7.11    | 
 | WideResNet + SRIP Reg | **5.46** | 
+
+### Pre-Resnet Imagenet
+we trained the Imagenet Dataset for Resnet-34 Resnet 50 and Pre-Resnet 34 and achieved a better Top-5 accuracy when compared to contemporary results. Basic Code was taken from:Pytorch Official cite.
+
+### Result
+| **Network** | **Imagenet** | **Regularizer**| 
+| ----------- | ------------ | -------------- |
+| PreResnet 34  | 9.79   |     NONE           |
+| PreResNet 34 | **8. 85** |   SRIP           |
+| ResNet 34 | 9.84 |   NONE           |
+| PreResNet 34 | **8. 32** |   SRIP           |
 
 
 ## Pre-Trained Networks
