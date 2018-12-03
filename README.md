@@ -103,7 +103,7 @@ Link will be posted soon!
 ## Acknowledgement
 - [wideresnet-pytorch](https://github.com/xternalz/WideResNet-pytorch)
 - [densenet-pytorch](https://github.com/andreasveit/densenet-pytorch)
-- [Wide Residual Networks (BMVC 2016)] (http://arxiv.org/abs/1605.07146)
+- [Wide Residual Networks (BMVC 2016)](http://arxiv.org/abs/1605.07146)
 - [cutout-svhn](https://github.com/uoguelph-mlrg/Cutout)
 - [keras-resnet](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
 
