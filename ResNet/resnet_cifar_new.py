@@ -24,7 +24,7 @@ import tensorflow as tf
 import os
 
 #Defining the Regularization Function for maintiaing the Orthogonality
-# Regularizer Function, Forbenius Norm for ||T(W) * W - I||^2 Norm.
+# Regularizer Function, Calculates the Spectral Norm for W^t*W-I.
 
 d_rate = K.variable(0.01)
 w_rate = K.variable(1e-4)
