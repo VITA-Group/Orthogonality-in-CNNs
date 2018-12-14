@@ -94,7 +94,8 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 python train_n.py
 
 
 ## Pre-Trained Networks
-Link will be posted soon!
+Pre-trained Model are saved on the Google Drive.
+* [Google Drive](https://drive.google.com/drive/folders/1k5ch1Q6QVLOf2LLRSBP9wlsHB3ipP0_s?usp=sharing)
 
 
 ## Other frameworks
