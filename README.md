@@ -1,4 +1,4 @@
-# Can-we-Gain-More-from-Orthogonality
+# Orthogonality in CNNs
 ##### Code Implementation for Restricted Isometry Property(RIP) based Orthogonal Regularizers, proposed for Image Classification Task, for various State-of-art ResNet based architectures.
 
 This repositry provides an introduction, implementation and result achieved in the paper:
